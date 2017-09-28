@@ -6,9 +6,10 @@
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Label x:Name="label" Content="Thibault Poels" HorizontalAlignment="Left" Height="91" Margin="84,45,0,0" VerticalAlignment="Top" Width="138"/>
-        <Label x:Name="label1" Content="16 jaar&#xD;&#xA;" HorizontalAlignment="Left" Height="80" Margin="290,45,0,0" VerticalAlignment="Top" Width="81"/>
+    <Grid Background="#FF03FF8C">
+        <Label x:Name="label" Content="Thibault Poels" HorizontalAlignment="Left" Height="91" Margin="84,45,0,0" VerticalAlignment="Top" Width="138" Background="Red" Foreground="White" FontFamily="Times New Roman" FontSize="18"/>
+        <Label x:Name="label1" Content="16 jaar&#xD;&#xA;" HorizontalAlignment="Left" Height="80" Margin="290,45,0,0" VerticalAlignment="Top" Width="81" Foreground="White" FontFamily="Times New Roman" FontSize="18" Background="Red"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="53" Margin="221,182,0,0" VerticalAlignment="Top" Width="92"/>
 
     </Grid>
 </Window>

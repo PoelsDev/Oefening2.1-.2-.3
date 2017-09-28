@@ -7,10 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid Background="#FF03FF8C">
-        <TextBlock x:Name="Textblock1
-" HorizontalAlignment="Left" Height="91" Margin="84,45,0,0" VerticalAlignment="Top" Width="138" Background="Red" Foreground="White" FontFamily="Times New Roman" FontSize="18" Text="Thibault Poels"/>
-        <TextBlock x:Name="label1" HorizontalAlignment="Left" Height="80" Margin="290,45,0,0" VerticalAlignment="Top" Width="81" Foreground="White" FontFamily="Times New Roman" FontSize="18" Background="Red"><Run Text="16 jaar"/><LineBreak/><Run/></TextBlock>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="53" Margin="221,182,0,0" VerticalAlignment="Top" Width="92"/>
+        <TextBlock x:Name="Textblock1" HorizontalAlignment="Left" Height="91" Margin="84,45,0,0" VerticalAlignment="Top" Width="138" Background="Red" Foreground="White" FontFamily="Times New Roman" FontSize="18" Text="Thibault Poels"/>
+        <TextBlock x:Name="Leeftijd" Text="16 jaar oud" HorizontalAlignment="Left" Height="86" Margin="296,50,0,0" VerticalAlignment="Top" Width="122" FontFamily="Times New Roman" Background="#FFFB0000" Foreground="#FFEEEEEE" FontSize="18"/>
+        <Button x:Name="mijnKnop" Content="Klik hier!" HorizontalAlignment="Left" Height="79" Margin="214,180,0,0" VerticalAlignment="Top" Width="120" Background="Red" Foreground="White" FontFamily="Times New Roman" FontSize="18" Click="mijnKnop_Click_1"/>
 
     </Grid>
 </Window>

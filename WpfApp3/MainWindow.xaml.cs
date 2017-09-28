@@ -24,5 +24,15 @@ namespace WpfApp3
         {
             InitializeComponent();
         }
+
+        private void mijnKnop_Click(object sender, RoutedEventArgs e)
+        {
+            mijnKnop.Content = "Thibault Poels";
+        }
+
+        private void mijnKnop_Click_1(object sender, RoutedEventArgs e)
+        {
+            mijnKnop.Content = "Thibault Poels";
+        }
     }
 }

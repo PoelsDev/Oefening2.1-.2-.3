@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="label" Content="Thibault Poels" HorizontalAlignment="Left" Height="91" Margin="84,45,0,0" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="label1" Content="16 jaar&#xD;&#xA;" HorizontalAlignment="Left" Height="80" Margin="290,45,0,0" VerticalAlignment="Top" Width="81"/>
+
     </Grid>
 </Window>
